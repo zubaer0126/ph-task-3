@@ -48,13 +48,31 @@
     <header class="container mx-auto relative px-2 md:px-0">
       <!-- nav bar section -->
       <nav>
-        <div class="navbar bg-base-100 md:bg-unicolor rounded-3xl my-9 flex-row-reverse md:flex-row justify-between relative">
+        <div
+          class="navbar bg-base-100 md:bg-unicolor rounded-3xl my-9 flex-row-reverse md:flex-row justify-between relative"
+        >
           <div class="navbar-start text-white pl-5">
             <div class="md:hidden dropdown absolute right-2 text-black">
               <label tabindex="0" class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h7"
+                  />
+                </svg>
               </label>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-2">
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-2"
+              >
                 <li><a href="">Homepage</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">About</a></li>
@@ -70,9 +88,11 @@
           <div class="navbar-center">
             <a class="flex items-center gap-3" href="">
               <img class="w-8" src="./images/logo.png" alt="" />
-            <p class="normal-case text-xl font-lato md:text-white text-black font-bold
-            "
-              >Fruit Burst</p>
+              <p
+                class="normal-case text-xl font-lato md:text-white text-black font-bold"
+              >
+                Fruit Burst
+              </p>
             </a>
           </div>
           <div class="navbar-end hidden md:flex">
@@ -208,7 +228,9 @@
               </div>
             </div>
             <!-- fruit bar in banner -->
-            <div class="absolute bg-white md:flex bottom-12 left-[50%] translate-x-[-50%] shadow-md p-10 gap-5 hidden">
+            <div
+              class="absolute bg-white md:flex bottom-12 left-[50%] translate-x-[-50%] shadow-md p-10 gap-5 hidden"
+            >
               <div class="item">
                 <img src="./images/fruit1.png" alt="Pizza" />
               </div>
@@ -233,7 +255,9 @@
     <main class="container mx-auto">
       <!-- deal of the day section -->
       <section class="mb-40">
-        <div class="md:flex justify-between text-center md:text-left items-center mb-12 px-3">
+        <div
+          class="md:flex justify-between text-center md:text-left items-center mb-12 px-3"
+        >
           <div class="space-y-5">
             <h2 class="text-5xl font-extrabold">Deal of the day</h2>
             <p>
@@ -260,7 +284,9 @@
           </div>
         </div>
 
-        <div class="grid justify-items-center gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div
+          class="grid justify-items-center gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+        >
           <!-- Card 1 -->
           <div class="card w-80 bg-base-100 border-[1px] py-5">
             <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
@@ -299,50 +325,54 @@
             </div>
 
             <!-- Open the modal using ID.showModal() method -->
-            
-<button class="text-unicolor" onclick="my_modal_1.showModal()">Details</button>
-<dialog id="my_modal_1" class="modal">
-  <form method="dialog" class="modal-box">
-    <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
-            <div class="card-body items-center gap-5">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <p>Apples</p>
-              <div class="rating">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                  checked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-              </div>
-            </div>
-    <div class="text-center">
-      <!-- if there is a button in form, it will close the modal -->
-      <button class="btn bg-white text-unicolor border-unicolor">Close</button>
-      <button class="btn bg-unicolor text-white">Buy Now</button>
-    </div>
-  </form>
-</dialog>
+
+            <button class="text-unicolor" onclick="my_modal_1.showModal()">
+              Details
+            </button>
+            <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
+                <div class="card-body items-center gap-5">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Apples</p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                  </div>
+                </div>
+                <div class="text-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn bg-white text-unicolor border-unicolor">
+                    Close
+                  </button>
+                  <button class="btn bg-unicolor text-white">Buy Now</button>
+                </div>
+              </form>
+            </dialog>
             <!-- End of Modal implementation -->
           </div>
           <!-- Card 2 -->
@@ -384,49 +414,53 @@
 
             <!-- Open the modal using ID.showModal() method -->
             <!-- Open the modal using ID.showModal() method -->
-<button class="text-unicolor" onclick="my_modal_2.showModal()">Details</button>
-<dialog id="my_modal_2" class="modal">
-  <form method="dialog" class="modal-box">
-    <figure><img src="./images/fruit7.png" alt="Shoes" /></figure>
-            <div class="card-body items-center gap-5">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <p>Orange</p>
-              <div class="rating">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                  checked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-              </div>
-            </div>
-    <div class="text-center">
-      <!-- if there is a button in form, it will close the modal -->
-      <button class="btn bg-white text-unicolor border-unicolor">Close</button>
-      <button class="btn bg-unicolor text-white">Buy Now</button>
-    </div>
-  </form>
-</dialog>
+            <button class="text-unicolor" onclick="my_modal_2.showModal()">
+              Details
+            </button>
+            <dialog id="my_modal_2" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure><img src="./images/fruit7.png" alt="Shoes" /></figure>
+                <div class="card-body items-center gap-5">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Orange</p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                  </div>
+                </div>
+                <div class="text-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn bg-white text-unicolor border-unicolor">
+                    Close
+                  </button>
+                  <button class="btn bg-unicolor text-white">Buy Now</button>
+                </div>
+              </form>
+            </dialog>
             <!-- End of Modal implementation -->
           </div>
 
@@ -469,49 +503,53 @@
 
             <!-- Open the modal using ID.showModal() method -->
             <!-- Open the modal using ID.showModal() method -->
-<button class="text-unicolor" onclick="my_modal_3.showModal()">Details</button>
-<dialog id="my_modal_3" class="modal">
-  <form method="dialog" class="modal-box">
-    <figure><img src="./images/fruit8.png" alt="Shoes" /></figure>
-            <div class="card-body items-center gap-5">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <p>Red Dragon</p>
-              <div class="rating">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                  checked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-              </div>
-            </div>
-    <div class="text-center">
-      <!-- if there is a button in form, it will close the modal -->
-      <button class="btn bg-white text-unicolor border-unicolor">Close</button>
-      <button class="btn bg-unicolor text-white">Buy Now</button>
-    </div>
-  </form>
-</dialog>
+            <button class="text-unicolor" onclick="my_modal_3.showModal()">
+              Details
+            </button>
+            <dialog id="my_modal_3" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure><img src="./images/fruit8.png" alt="Shoes" /></figure>
+                <div class="card-body items-center gap-5">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Red Dragon</p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                  </div>
+                </div>
+                <div class="text-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn bg-white text-unicolor border-unicolor">
+                    Close
+                  </button>
+                  <button class="btn bg-unicolor text-white">Buy Now</button>
+                </div>
+              </form>
+            </dialog>
             <!-- End of Modal implementation -->
           </div>
 
@@ -554,53 +592,55 @@
 
             <!-- Open the modal using ID.showModal() method -->
             <!-- Open the modal using ID.showModal() method -->
-<button class="text-unicolor" onclick="my_modal_4.showModal()">Details</button>
-<dialog id="my_modal_4" class="modal">
-  <form method="dialog" class="modal-box">
-    <figure><img src="./images/fruit9.png" alt="Shoes" /></figure>
-            <div class="card-body items-center gap-5">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <p>Banana</p>
-              <div class="rating">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                  checked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-unicolor"
-                />
-              </div>
-            </div>
-    <div class="text-center">
-      <!-- if there is a button in form, it will close the modal -->
-      <button class="btn bg-white text-unicolor border-unicolor">Close</button>
-      <button class="btn bg-unicolor text-white">Buy Now</button>
-    </div>
-  </form>
-</dialog>
+            <button class="text-unicolor" onclick="my_modal_4.showModal()">
+              Details
+            </button>
+            <dialog id="my_modal_4" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure><img src="./images/fruit9.png" alt="Shoes" /></figure>
+                <div class="card-body items-center gap-5">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Banana</p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-unicolor"
+                    />
+                  </div>
+                </div>
+                <div class="text-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn bg-white text-unicolor border-unicolor">
+                    Close
+                  </button>
+                  <button class="btn bg-unicolor text-white">Buy Now</button>
+                </div>
+              </form>
+            </dialog>
             <!-- End of Modal implementation -->
           </div>
-        
-        
         </div>
         <!-- Shop all button -->
         <div class="text-center">
@@ -611,41 +651,221 @@
       <!-- Team Section -->
 
       <section
-        class="bg-[url('./images/team.png')] bg-no-repeat w-[100%] bg-cover bg-center relative"
+        class="bg-[url('./images/team.png')] bg-no-repeat w-[100%] bg-cover bg-center relative mb-32"
       >
-        <!-- <div class="absolute w-[100%] h-[100%] bg-black opacity-70"></div> -->
-        <div class="text-center z-10">
+        <div class="absolute w-[100%] h-[100%] bg-black opacity-70"></div>
+        <div class="text-center z-20 absolute translate-x-[-50%] left-[50%]">
           <h2 class="text-white text-5xl font-extrabold pt-32">
             Meet the team section
           </h2>
-          <p class="pt-5 text-base font-medium text-white">
+          <p class="pt-5 text-base font-medium text-white pb-10">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical <br />
             Latin literature from 45 BC, making it over 2000 years old.
           </p>
-          <div class="grid justify-items-center gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <!-- Card 1 -->
+        </div>
+        <div
+          class="grid justify-items-center items-center grid-cols-1 md:grid-cols-4 md:px-20 md:pt-[300px] pt-[500px] pb-[100px]"
+        >
+          <!-- member 1 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div class="card w-80 bg-transparent">
               <figure><img src="./images/member1.png" alt="Shoes" /></figure>
               <div class="card-body items-center gap-2">
-                <h2 class="card-title text-white font-bold text-2xl">Awlad Hossain</h2>
+                <h2 class="card-title text-white font-bold text-2xl">
+                  Awlad Hossain
+                </h2>
                 <p class="text-base font-medium text-white">Fruits Expert</p>
                 <div class="text-unicolor space-x-2">
-                  <i class="fa-brands fa-facebook bg-white rounded-s-none"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-facebook bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-twitter bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-instagram bg-white rounded-[50%]"></i>
                 </div>
               </div>
-  
-
             </div>
-          
-          
           </div>
-        
+          <!-- member 2 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="card w-80 bg-transparent">
+              <figure><img src="./images/member2.png" alt="Shoes" /></figure>
+              <div class="card-body items-center gap-2">
+                <h2 class="card-title text-white font-bold text-2xl">
+                  Awlad Hossain
+                </h2>
+                <p class="text-base font-medium text-white">Fruits Expert</p>
+                <div class="text-unicolor space-x-2">
+                  <i class="fa-brands fa-facebook bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-twitter bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-instagram bg-white rounded-[50%]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- member 3 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="card w-80 bg-transparent">
+              <figure><img src="./images/member3.png" alt="Shoes" /></figure>
+              <div class="card-body items-center gap-2">
+                <h2 class="card-title text-white font-bold text-2xl">
+                  Awlad Hossain
+                </h2>
+                <p class="text-base font-medium text-white">Fruits Expert</p>
+                <div class="text-unicolor space-x-2">
+                  <i class="fa-brands fa-facebook bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-twitter bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-instagram bg-white rounded-[50%]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- member 4 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="card w-80 bg-transparent">
+              <figure><img src="./images/member4.png" alt="Shoes" /></figure>
+              <div class="card-body items-center gap-2">
+                <h2 class="card-title text-white font-bold text-2xl">
+                  Awlad Hossain
+                </h2>
+                <p class="text-base font-medium text-white">Fruits Expert</p>
+                <div class="text-unicolor space-x-2">
+                  <i class="fa-brands fa-facebook bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-twitter bg-white rounded-[50%]"></i>
+                  <i class="fa-brands fa-instagram bg-white rounded-[50%]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us -->
+      <section>
+        <div class="text-center">
+          <h2 class="text-black text-5xl font-extrabold pt-32">
+            Why Choose Us
+          </h2>
+          <p class="pt-5 text-base font-medium text-black pb-10">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical <br />
+            Latin literature from 45 BC, making it over 2000 years old.
+          </p>
+        </div>
+        <!-- 3 div container -->
+        <div class="flex items-center flex-col lg:flex-row justify-between px-3 md:px-0">
+          <div >
+            <div class="flex items-start gap-2 ">
+              <div class="bg-slate-400 rounded-full">
+                <i class="fa-solid fa-users p-3"></i>
+              </div>
+              <div>
+                <h2>Dedicated Team</h2>
+                <hr class="w-1/3 my-3" />
+                <p>
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2 my-5">
+              <div class="bg-slate-400 rounded-full">
+                <i class="fa-solid fa-users p-3"></i>
+              </div>
+              <div>
+                <h2>Dedicated Team</h2>
+                <hr class="w-1/3 my-3" />
+                <p>
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2 ">
+              <div class="bg-slate-400 rounded-full">
+                <i class="fa-solid fa-users p-3"></i>
+              </div>
+              <div>
+                <h2>Dedicated Team</h2>
+                <hr class="w-1/3 my-3" />
+                <p>
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div><img src="./images/whychoose1.png" alt="" /></div>
+          <div>
+            <div class="text-right">
+              <div class="flex items-start gap-2 flex-row-reverse">
+                <div class="bg-slate-400 rounded-full">
+                  <i class="fa-solid fa-users p-3"></i>
+                </div>
+                <div>
+                  <h2>Dedicated Team</h2>
+                  <hr class="w-1/3 my-3" />
+                  <p>
+                    Professional employees are there for you to pick <br />
+                    the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-2 my-5 flex-row-reverse">
+                <div class="bg-slate-400 rounded-full">
+                  <i class="fa-solid fa-users p-3"></i>
+                </div>
+                <div>
+                  <h2>Dedicated Team</h2>
+                  <hr class="w-1/3 my-3" />
+                  <p>
+                    Professional employees are there for you to pick <br />
+                    the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-2 flex-row-reverse">
+                <div class="bg-slate-400 rounded-full">
+                  <i class="fa-solid fa-users p-3"></i>
+                </div>
+                <div>
+                  <h2>Dedicated Team</h2>
+                  <hr class="w-1/3 my-3" />
+                  <p>
+                    Professional employees are there for you to pick <br />
+                    the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer footer-center py-28 bg-[#121212] text-white">
+      <div>
+        <a class="flex cursor-pointer items-center">
+          <img src="./images/logo.png" alt="logo" />
+          <span class="ml-3 text-4xl font-bold md:text-white">Fruit Burst</span>
+        </a>
+      </div>
+      <div class="flex flex-wrap justify-center gap-8 text-lg">
+        <a href="">Home </a>
+        <a href="">About Us</a>
+        <a href="">Shop</a>
+        <a href=""> All Fruits</a>
+        <a href="">Support</a>
+        <a href="">My Account</a>
+      </div>
+      <div>
+        <div class="flex flex-wrap justify-center gap-8 text-2xl">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-apple"></i></a>
+          <a href=""><i class="fa-brands fa-google"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
